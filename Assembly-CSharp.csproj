@@ -41,6 +41,7 @@
      <Compile Include="Assets/Script/Canon.cs" />
      <Compile Include="Assets/Script/Enemy.cs" />
      <Compile Include="Assets/Script/Player.cs" />
+     <Compile Include="Assets/Script/TextCtrl.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2019.4.31f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -581,10 +582,6 @@
       <Project>{80e9c7d5-99a5-535b-1040-12d4ad2e1be6}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Cinemachine.csproj">
-      <Project>{c9971e54-5f60-c542-d944-90645cddb254}</Project>
-      <Name>Cinemachine</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{2db97cf4-346f-4e22-20be-6d3047222a57}</Project>
       <Name>Unity.VSCode.Editor</Name>
@@ -604,10 +601,6 @@
     <ProjectReference Include="Unity.Rider.Editor.csproj">
       <Project>{4f50e2dc-98c3-061a-9048-8f08084a10b6}</Project>
       <Name>Unity.Rider.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
-      <Project>{07c8a470-97db-ed34-eb58-f7677b3879a7}</Project>
-      <Name>com.unity.cinemachine.editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
       <Project>{6320af7f-8388-3acc-ac8a-7dc2458367df}</Project>
