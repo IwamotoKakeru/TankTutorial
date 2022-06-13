@@ -21,5 +21,6 @@ public class Bullet : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Enemy"))//あたったやつのタグがEnemyなら
             Destroy(collision.gameObject);//あたったやつを削除
+            Destroy(this.gameObject);
     }
 }

@@ -27,7 +27,7 @@ public class CameraCtrl : MonoBehaviour
     void Update()
     {
         if(Player == null){ //プレイヤーが消滅したとき
-                
+            //何もしない 
         }else{              //プレイヤーが存在するとき
             CameraTracking();
         }
