@@ -20,7 +20,6 @@ public class Bullet : MonoBehaviour
     void OnCollisionEnter(Collision collision) //Bulletに何かがあたったとき
     {
         if(collision.gameObject.CompareTag("Enemy"))//あたったやつのタグがEnemyなら
-            Destroy(collision.gameObject);//あたったやつを削除
-            Destroy(this.gameObject);
+            Destroy(collision.gameObject);          //あたった相手を削除
     }
 }

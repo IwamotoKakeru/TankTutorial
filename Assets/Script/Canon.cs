@@ -4,14 +4,9 @@ using UnityEngine;
 
 public class Canon : MonoBehaviour
 {
+    //弾を格納する変数
     public GameObject bullet ;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Space)){

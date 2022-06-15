@@ -15,6 +15,8 @@ public class Player : MonoBehaviour
 
     void Update()//毎回実行される場所
     {
+        //この中にプログラムを書いていく
+
         if(Input.GetKey(KeyCode.W)){ //Wが押されたとき
             transform.Translate(0,0,speed); //毎回speedメートルずつ前に動く
         }
