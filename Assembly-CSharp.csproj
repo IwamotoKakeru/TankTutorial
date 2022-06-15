@@ -36,12 +36,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets/PreScript/CameraCtrl.cs" />
+     <Compile Include="Assets/PreScript/Enemy.cs" />
+     <Compile Include="Assets/PreScript/TextCtrl.cs" />
      <Compile Include="Assets/Script/Bullet.cs" />
-     <Compile Include="Assets/Script/CameraCtrl.cs" />
      <Compile Include="Assets/Script/Canon.cs" />
-     <Compile Include="Assets/Script/Enemy.cs" />
      <Compile Include="Assets/Script/Player.cs" />
-     <Compile Include="Assets/Script/TextCtrl.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2019.4.31f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
